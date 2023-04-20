@@ -31,4 +31,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo  ${{steps.step2.output}}
+          echo  ${{step2}}
